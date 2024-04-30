@@ -9,7 +9,7 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
     environment: 
-      name: production
+      name: testing
       url: https://github.com
     steps:
       - name: deploy
