@@ -13,4 +13,6 @@ jobs:
       url: https://github.com
     steps:
       - name: deploy
+      - run:
+          echo "Testing"
         # ...deployment-specific steps
